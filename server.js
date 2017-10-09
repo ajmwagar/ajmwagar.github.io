@@ -9,20 +9,15 @@ var poet = Poet(app, {
   metaFormat: 'json',
 });
 
-poet
-  .watch()
-  .init();
+poet.watch()
+poet.init(app, function(){});
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'html');
-app.use(express.static(__dirname + '/public'));
-app.use(app.router);
-app.use(handle404);
-
 app.use('/public', express.static('public'));
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, '/public', 'index.html'));
+    res.sendFile(path.join(__dirname, '/views', 'index.html'));
 });
 
 var port = process.env.PORT || 3000;
