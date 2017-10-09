@@ -17,7 +17,7 @@ app.set('view engine', 'html');
 app.use('/public', express.static('public'));
 
 app.get('/', function (req, res) {
-    res.sendFile(path.join(__dirname, '/views', 'index.html'));
+    res.sendFile(path.join(__dirname, '/public/views', 'index.html'));
 });
 
 var port = process.env.PORT || 3000;
