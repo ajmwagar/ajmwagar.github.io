@@ -1,0 +1,20 @@
+{
+  "name": "ajmwagar.github.io",
+  "version": "1.0.0",
+  "description": "My Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajmwagar/ajmwagar.github.io.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajmwagar/ajmwagar.github.io/issues"
+  },
+  "homepage": "https://github.com/ajmwagar/ajmwagar.github.io#readme"
+}
