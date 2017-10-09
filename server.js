@@ -4,8 +4,8 @@ var Poet = require('poet');
 var path = require('path');
 
 var poet = Poet(app, {
-  posts: '/posts',
   postPerPage: 5,
+  posts: __dirname + '/_posts',
   metaFormat: 'json',
 });
 
