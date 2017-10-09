@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ajmwagar/ajmwagar.github.io/issues"
   },
-  "homepage": "https://github.com/ajmwagar/ajmwagar.github.io#readme"
+  "homepage": "https://github.com/ajmwagar/ajmwagar.github.io#readme",
+  "dependencies": {
+    "express": "^4.16.1"
+  }
 }
