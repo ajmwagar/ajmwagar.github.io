@@ -9,10 +9,15 @@ var poet = Poet(app, {
   metaFormat: 'json',
 });
 
-poet.init().then(function (){
-  //ready to go!
-});
+poet
+  .watch()
+  .init();
 
+app.set('views', __dirname + '/views');
+app.set('view engine', 'html');
+app.use(express.static(__dirname + '/public'));
+app.use(app.router);
+app.use(handle404);
 
 app.use('/public', express.static('public'));
 
