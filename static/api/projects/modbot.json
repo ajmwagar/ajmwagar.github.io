@@ -1,0 +1,16 @@
+
+{
+  "results": [{
+    "id": "modbot",
+    "title": "Mod Bot / Phoenix",
+    "content": "A modular discord bot that is fully customizable!\n\n ",
+    "image": "https://cdn.discordapp.com/attachments/409929301765390336/482776727869980672/phoenixlogo.png",
+    "meta": {
+      "link": "",
+      "github": "https://github.com/ajmwagar/discordbot",
+      "description": "Project Maintainer 2018-present",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

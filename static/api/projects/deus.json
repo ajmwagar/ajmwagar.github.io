@@ -1,0 +1,16 @@
+
+{
+  "results": [{
+    "id": "deus",
+    "title": "Vim-Deus",
+    "content": "deus was created out of sheer rage caused by all of the bad Solarized/Gruvbox clones. I was tired of them. I needed something original, something new. So if you are like me... and I believe many of you are, \n\n I present you **Deus**",
+    "image": "https://github.com/ajmwagar/vim-deus/raw/master/screencaps/duesLinux.jpeg?raw=true",
+    "meta": {
+      "github": "https://github.com/ajmwagar/vim-deus",
+      "link":"",
+      "description": "Project Maintainer 2016-Present",
+      "published": "2016-03-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

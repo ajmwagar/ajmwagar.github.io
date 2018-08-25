@@ -1,0 +1,15 @@
+{
+  "results": [{
+    "id": "missilemania",
+    "title": "Missile Mania",
+    "content": "A missile defense game for the HTC Vive.\n\n Missile Mania uses three Vive trackers to implement real world objects as defenses in VR.\n\n Won most innovative app at Seattle VR Hackathon.",
+    "image": "/static/api/images/missilemania.jpg",
+    "meta": {
+      "link": "https://devpost.com/software/missilemania",
+      "github": "https://github.com/ajmwagar/MissileMania",
+      "description": "",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

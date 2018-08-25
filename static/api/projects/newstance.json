@@ -1,0 +1,16 @@
+
+{
+  "results": [{
+    "id": "newstance",
+    "title": "NewStance VR",
+    "content": "A VR Sword fighting game that came out of my first Hackathon.",
+    "image": "/static/api/images/newstance.png",
+    "meta": {
+      "link": "",
+      "github": "https://github.com/ajmwagar/NewStance",
+      "description": "Project Manager, Lead Developer",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

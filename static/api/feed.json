@@ -1,0 +1,17 @@
+{
+  "results": [{
+    "title": "GE2",
+    "id": "ge2-2017",
+    "image": "/static/api/images/Esports.jpg_large",
+    "author": "Avery Wagar",
+    "published": "2017-05-14T18:17:00Z"
+  },
+    {
+    "title": "Vim Tips and Tricks No. 1",
+    "id": "vim-tips-1",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png",
+    "author": "Avery Wagar",
+    "published": "2017-05-14T18:17:00Z"
+  }]
+}
+

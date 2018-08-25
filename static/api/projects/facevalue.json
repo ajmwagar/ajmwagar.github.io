@@ -1,0 +1,16 @@
+
+{
+  "results": [{
+    "id": "facevalue",
+    "title": "FaceValue",
+    "content": "Real time emotion tracking from webcams using Python \n Won second place at the Global AI Hackathon (Seattle)\n See project FaceValue",
+    "image": "/static/api/images/facevalue.png",
+    "meta": {
+      "link": "",
+      "github": "https://github.com/ajmwagar/FaceValue",
+      "description": "Lead Developer focused on OpenCV and Azure api integration.",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

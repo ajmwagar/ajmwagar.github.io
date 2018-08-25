@@ -1,0 +1,15 @@
+{
+  "results": [{
+    "id": "giantoctopus",
+    "title": "Giant Octopus VR",
+    "content": "A multi platform AR/VR defense game where players defend a city from invading robots. AR players can see robots and other players in real time.\n\n Won best visual effects at Seattle VR Hackathon 6",
+    "image": "https://pbs.twimg.com/media/DJ4b29TU8AApMrb.jpg",
+    "meta": {
+      "link": "",
+      "github": "https://github.com/GiantOctopusVR/GiantOctopusVR/tree/master",
+      "description": "Game Developer, focused on logic and scene building.",
+      "published": "2017-07-28T18:31:01Z",
+      "author": "Avery Wagar"
+    }
+  }]
+}

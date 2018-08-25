@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><title>Avery Wagar</title><meta name="description" content=""><meta name="apple-mobile-web-app-capable" content="yes"><meta name="fragment" content="!"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="msapplication-config" content="/static/icons/browserconfig.xml"><meta name="theme-color" content="#408c71"><link rel="apple-touch-icon" sizes="180x180" href="/static/icons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/static/icons/favicon-16x16.png"><link rel="manifest" href="/static/icons/manifest.json"><link rel="mask-icon" href="/static/icons/safari-pinned-tab.svg" color="#3fba84"><link rel="shortcut icon" href="/static/icons/favicon.ico"><link rel="canonical" href="https://snipcart.com"><link href="https://fonts.googleapis.com/css?family=Prompt:200,300,500,700" rel="stylesheet"><style>body{background:#fcfdff}</style><script>window.prerenderReady = false</script><link href="/static/css/app.fa16702d7cf6d5156848fe9046b7189c.css" rel="stylesheet"></head><body class="  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div><main class="blog blog--reading" id="app"><nav class="nav"><h1 class="nav__title"><a href="/" class="active">BrightByte</a></h1> <menu class="nav__menu"><li class="nav__item nav__item-enter-active nav__item-enter-to"><i class="nav__item--icon"></i> <span class="nav__item--label">Close</span></li></menu></nav> <ul class="blog__feed"><li class="preview"><figure class="preview__figure" style="background-image: url(&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Vimlogo.svg/1200px-Vimlogo.svg.png&quot;);"><!----></figure></li></ul> <article class="post post-enter-active post-enter-to"><header class="post__header"><h2 class="post__title">Vim Tips and Tricks No. 1</h2> <h3 class="post__meta">by <a href="/by/avery-wagar" class="post__author">Avery Wagar</a> <span class="post__sep"></span> <time>Invalid Date</time></h3> <blockquote class="post__subtitle">Time for some Vim tricks!</blockquote></header> <pre><section class="post__body rte marked"><p>Welcome back my fellow Vim enthusiasts! Today we will be discussing a few shortcuts you can add to your <strong>.vimrc</strong>!</p>
+<h2 id="find-and-replace">Find and Replace</h2>
+<p>Refactoring code is a large part of any programmers daily routine. Sometime you have to refactor a variable across a whole file. 
+If you add the following code to your <strong>.vimrc</strong>
+<code>vim
+' Find and Replace
+map &lt;leader&gt;fr :%s///g&lt;left&gt;&lt;left&gt; ' Find and replace
+map &lt;leader&gt;frl :s///g&lt;left&gt;&lt;left&gt; ' Find and replace (current line only)</code>
+You can refactor code with a breeze. Just search in Vim using <code>/</code> and then hit <leader>fr to start refactoring. Then type in the new word and hit enter. Boom. Your code is refactored.
+<strong>Note:</strong> Currently there is no good way to refactor across multiple files. (Let me know in the comments if you find a way!)</leader></p>
+<h1 id="clearing-searches">Clearing searches</h1>
+<p>Another issue I have with Vim out of the box is searching cannot be cleared easily. So instead of typing a random string into your search bar, you can clear it with the following mapping:
+<code>vim
+' Clear searchs
+map &lt;leader&gt;&lt;space&gt; :let @/=''&lt;cr&gt; ' clear search</code></p>
+<h1 id="switching-buffers">Switching buffers</h1>
+<p>While working across multiple files I like to use buffers. I added shortcuts to switch my buffers easily. 
+<code>vim
+' Switching Buffers
+noremap &lt;leader&gt;[ :bp&lt;return&gt;
+noremap &lt;leader&gt;] :bn&lt;return&gt;</code>
+Now you can page through your buffers with ease.</p>
+<h1 id="vim-hard-mode">Vim hard mode</h1>
+<p>So if you are new to Vim, or are still used to the ‘Arrow keys.’ You can enable the little known hard mode in Vim.
+<code>" No arrow keys (Vim Hard mode)
+noremap &lt;Up&gt; &lt;NOP&gt;
+noremap &lt;Down&gt; &lt;NOP&gt;
+noremap &lt;Left&gt; &lt;NOP&gt;
+noremap &lt;Right&gt; &lt;NOP&gt;</code>
+Now you can ascend to the Master Vimmer you are meant to be.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p>So now that you have some new tools in your Vim toolbox. I hope you can extend your love for Vim. Be sure to check back soon for part 2! Let me know any other tips I should know in the comments.</p>
+</section></pre> <footer class="post__footer"><!----></footer></article> <footer class="blog__footer v--mask-enter-active v--mask-enter-to"><a href="/" target="_blank" class="signature">
+      Copyright 2018 Avery Wagar
+    </a></footer></main><script type="text/javascript" src="/static/js/manifest.2ae2e69a05c33dfc65f8.js"></script><script type="text/javascript" src="/static/js/vendor.1d7849e7539e210be268.js"></script><script type="text/javascript" src="/static/js/app.2d3cac5c605c978d18fd.js"></script></body></html>
